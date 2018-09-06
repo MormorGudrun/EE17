@@ -2,16 +2,29 @@ body{
 
 }
 table {
-    background-color: black;
+    background-color: antiquewhite;
+    padding: 20px;
+    border-spacing: 5px;
+}
+caption{
+    background-color: whitesmoke;
+    color: black;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 100px;
+    padding: 60px;
 }
 tr {
+    font-family: 'Raleway', sans-serif;
 
 }
 th {
     background-color: lightblue;
+    padding: 10px;
 }
 td {
     background-color: white;
+    padding: 10px;
+    text-align: center;
 }
 img {
     width: 200px;
