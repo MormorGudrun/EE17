@@ -2,18 +2,21 @@ body {
 
 }
 table {
-background-color: white;
-}
-caption {
-background-color: whitesmoke;
+    font-family: 'Noto Serif JP', sans-serif;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
 }
 tr {
-background-color: black;
+
 }
 th {
-background-color: violet;
+border-bottom: 1px solid #ccc;
+padding: 10px;
 }
 td {
-background-color: black;
+border-bottom: 1px solid #ccc;
+padding: 10px;
 }
-
+img {
+width: 50px;
+}
