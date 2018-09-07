@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Sansita');
+
+body {
+background-color: deepskyblue;
+}
+h1 {
+color: yellow;
+font-family: 'Sansita', sans-serif;
+font-size: 50px;
+border: 5px solid yellow;
+width: 400px;
+height: 400px;
+background-image: url("./bilder/1200px-Vitgrund.jpg");
+margin-left: 500px;
+margin-top: 100px;
+padding: 30px;
+
+}
