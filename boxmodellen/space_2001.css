@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Coda');
+body {
+background: #000 url("./bilder/Earth.jpg") no-repeat center bottom fixed;
+background-size: 400px;
+background-attachment: fixed;
+}
+h1 {
+color: white;
+font-family: 'Coda', cursive;
+font-size: 80px;
+width: 600px;
+text-align: center;
+margin-left: auto;
+margin-right:auto;
+background-color: darkblue;
+border: 2px solid #fff;
+padding: 20px;
+}
+h2 {
+color: white;
+font-family: 'Coda', cursive;
+font-size: 30px;
+width: 600px;
+text-align: center;
+margin: 20px auto;
+background-color: darkblue;
+border: 1px solid #fff;
+padding: 20px;
+}
