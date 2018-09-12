@@ -1,0 +1,18 @@
+body {
+
+}
+table {
+     width: 600px;
+}
+caption {
+
+}
+tr:nth-child(even) {
+background: #ccc;
+}
+th {
+
+}
+td {
+
+}
