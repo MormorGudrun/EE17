@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Playfair+Display');
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+/* prettier-ignore */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* prettier-ignore */
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body.pattern1 {
+    background: url(./bilder/pg.1.jpg)
+}
+body.pattern2 {
+    background: url(./bilder/pg.2.jpg)
+}
+body.pattern3 {
+    background: url(./bilder/pg.3.jpg)
+}
+div {
+    width: 600px;
+    background: #fff;
+    border: 5px dashed #000;
+    margin: 175px auto 0 auto;
+    padding: 40px;
+    border-radius: 15px;
+}
+div.ruta2 {
+    width: 600px;
+    background: #fff;
+    border: 5px dashed #000;
+    margin: 175px auto 0 auto;
+    padding: 40px;
+    border-radius: 15px;
+}
+div.ruta3 {
+    width: 600px;
+    background: #fff;
+    border: 5px dashed #000;
+    margin: 175px auto 0 auto;
+    padding: 40px;
+    border-radius: 15px;
+}
+h1 {
+    font-family: 'Lora', serif;
+    font-size: 40px;
+}
+p {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    margin: 40px 0;
+}
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: 50px;
+}
