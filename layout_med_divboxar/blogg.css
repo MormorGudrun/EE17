@@ -1,0 +1,58 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+/* prettier-ignore */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* prettier-ignore */
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+/* Sidans utseende */
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Noto+Serif+JP');
+body {
+    background-color: #707471;
+}
+div.kontainer {
+    width: 800px;
+    background-color: #8d839a;
+    padding: 30px;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+h1 {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #5A2649;
+    font-size: 80px;
+    text-shadow: 0 0 10px #fff;
+}
+div.inlagg {
+    background-color: #efe1dd;  
+    margin-top: 30px;
+    padding: 30px;
+    font-family: 'Noto Serif JP', sans-serif;
+    color: #363946;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px #000;
+}
+img {
+    width: 500px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 50px;
+    border: 10px solid #E3C0D3;
+    
+}
+h2 {
+    margin: 10px 0;
+}
+h3 {
+     margin: 10px 0;   
+}
+p {
+    margin: 10px 0;       
+}
