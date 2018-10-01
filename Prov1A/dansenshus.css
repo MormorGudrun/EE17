@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Denk+One');
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+/* prettier-ignore */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* prettier-ignore */
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+/* Sidans utseende */
+
+body {
+    background: url(./bilder/bakgrund.jpg);
+    background-repeat: no-repeat;
+    
+}
+table {
+    width: 550px;
+    border-collapse: collapse;
+    border: 15px solid #a9e5e5;
+    border-spacing: 5px;
+    padding: 20px;
+    border: 1px solid #a9e5e5;
+    border-radius: 20px;
+}
+div {
+    margin: 100px 0 0 100px;
+}
+h1 {
+    font-family: 'Denk One', sans-serif;
+    color: #00a6ad;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+h2 {
+    color: #00a6ad;
+    margin-bottom: 30px;
+}
+img {
+    border: 20px solid #a9e5e5;
+    border-radius: 10px;
+    width: 550px;
+    margin-bottom: 15px;
+}
+p {
+    background: #a9e5e5;
+    border: 20px solid #a9e5e5;
+    border-radius: 10px;
+    width: 550px;
+}
+caption {
+    color: #00a6ad;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+tr {
+    padding: 5px;
+    border: 2px solid #a9e5e5;
+}
+th {
+    padding: 5px;
+    border: 2px solid #a9e5e5;
+}
+.farg {
+    background-color: #a9e5e5;
+    font-family: sans-serif;
+    color: #00a6ad;
+}
+a {
+    text-decoration: none;
+    color: red;
+}

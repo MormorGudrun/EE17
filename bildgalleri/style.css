@@ -23,7 +23,7 @@ div.kontainer {
     width: 800px;
     padding: 30px;
     color: #fff;
-    background: #7B7583;
+    background: linear-gradient(to bottom, #e1ffff 0%,#e1ffff 7%,#e1ffff 12%,#fdffff 12%,#e6f8fd 30%,#c8eefb 54%,#bee4f8 75%,#b1d8f5 100%);
     margin: 30px auto;
     border-radius: 10px;
 }
@@ -36,13 +36,13 @@ h1 {
 div.ros {
     font-family: 'Tangerine', cursive;
     font-size: 18PX;
-    background: #AB4B51;
+    background: linear-gradient(to bottom, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
     border-radius: 20px;
     padding: 30px;
     margin-bottom: 20px;
     box-shadow: 5px 5px 20px #000;
 }
-img {
+img.ram {
     width: 400px;
     background: #fff;
     border: 1px solid #000; 

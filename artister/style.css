@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Slabo+27px');
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+/* prettier-ignore */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* prettier-ignore */
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* sidans layout*/
+body {
+    background: url(./bilder/fire.jpg);
+    
+}
+.kontainer {
+    width: 1000px;
+    background: #F7F4F3;
+    padding: 40px;
+    margin: 20px auto;
+    color: #E15C5C;
+    border: 5px;
+    border-radius: 50px;
+}
+/* meny */
+ul {
+    margin-left: 0;
+    padding-left: 0;
+    text-align: center;
+}
+li {
+    display: inline;
+    list-style-type: none;
+}
+li a {
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #ffffff;
+    background: #CC9999;
+    border-radius: 20px;
+}
+li a:hover {
+    background: #996666;
+}
+li .current {
+    background: #FFCC66;
+    color: #000000;
+   
+}
+    
+/* sidans innehåll */
+h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    text-shadow: 5px 5px 15px #303036;
+}
+h2 {
+    text-align: center;
+    font-family: 'Slabo 27px', serif;
+    font-size: 40px;
+}
+img {
+    width: 800px;
+    padding: 10px;
+    margin: auto;
+    display: block;
+    border: 1px;
+    border-radius: 20px;
+
+}
+p {
+    font-family: 'Slabo 27px', serif;
+}
+.sidfot {
+
+}

@@ -1,6 +1,6 @@
 body {
-background: url(./bilder/allsvenskan-swirl.png);
-background-repeat: no-repeat;
+    background: url(./bilder/allsvenskan-swirl.png);
+    background-repeat: no-repeat;
 }
 table {
      width: 600px;
