@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>grunder i javascript</title>
+</head>
+<body>
+    <h1>Grunder i Javascript</h1>
+    <p>nu ska vi testa lite javascript</p>
+    <button onclick="frageAlder()">Fråga ålder</button>
+    <button onclick="frageAdress()">Fråga adress</button>
+
+    <!-- här skriver jag min kod -->
+    <script>
+        function frageAlder() {
+            var alder = prompt('hur gammal är du?');
+            console.log('hej carl, din ålder ' + alder);
+        }
+        function frageAdress() {
+            var adress =prompt('vart bor du?');
+            console.log('hej carl, du bor på');
+            
+        }
+    </script>
+</body>
+</html>
