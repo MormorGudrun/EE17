@@ -1,0 +1,42 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+/* prettier-ignore */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* prettier-ignore */
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #ebebeb;
+    width: 800px;
+    height: 1000px;
+    margin: auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #7c7c7c;
+    padding: 20px;
+}
+h1 {
+      color:green;
+      font-weight: 100;
+      font-family: arial;
+      font-size: 34px; 
+}
+h2 {
+        color: green;
+        font-family: arial;
+}
+p {
+    font-family: arial; 
+    font-size: 14px; 
+    line-height: 150%;
+}
+.bild {
+    width: 170px;
+    float: right; 
+}

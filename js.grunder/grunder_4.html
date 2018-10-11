@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Leka med animationer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <style>
+        /*     p {
+        display: none;
+    } */
+    </style>
+</head>
+<body>
+    <img class="animated" src="./bilder/giphy.webp" alt="apa">
+    <button onclick="fadeOut()">Fade Out!</button>
+    <button onclick="fadeIn()">Fade In!</button>
+
+    <h2>volvo</h2>
+    <p class="text1 animated">Jag hade köpt en Chevrolet från -63 och rev iväg på stan och skulle se<br>
+        Om där fanns nåt att sätta staken i, nån liten brud med glöd och energi<br>
+        Jag gasade på och flinade åt dom, som blev rätt sneda när jag körde om<br>
+        Men plötsligt hörde jag ett jävla liv, det var nån tokig bonnafan som körde förbi</p>
+    <p class="text2 animated">En Volvo, Volvo, en gammal risig Volvo, körde om min fina Chevrolet<br>
+        Volvo, Volvo, en skitig jävla Volvo
+        Jag höll på att svimma, en Volvo körde om en jänkare</p>
+    <p class="text3 animated">Jag ställde mig på gasen och drog på, och tänkte nu så ska den jäveln få<br>
+        360 hästarn vrål och rök, tog mig förbi den faan i nästa krök
+        På nästa raka varvade jag ner, och tänkte inte på nån Volvo mer
+        Men när jag hunnit nästan in till stan<br>
+        Så kom det nån och blåste om och det gick fort som fan</p>
+    <button onclick="visaText()">Klicka på egen risk!</button>
+    <script>
+        var elementText1 = document.querySelector('.text1');
+        var elementText2 = document.querySelector('.text2');
+        var elementText3 = document.querySelector('.text3');
+
+        elementText1.setAttribute('hidden', 'true');
+        elementText2.setAttribute('hidden', 'true');
+        elementText3.setAttribute('hidden', 'true');
+
+        function visaText() {
+            var elementText1 = document.querySelector('.text1');
+            var elementText2 = document.querySelector('.text2');
+            var elementText3 = document.querySelector('.text3');
+
+            elementText1.removeAttribute('hidden');
+            elementText2.removeAttribute('hidden');
+            elementText3.removeAttribute('hidden');
+
+            elementText1.classList.add('fadeIn');
+            elementText2.classList.add('zoomIn');
+            elementText3.classList.add('slideIn');
+
+        }
+
+        function fadeOut() {
+            var element = document.querySelector('img');
+            element.classList.remove('fadeIn');
+            element.classList.add('fadeOut');
+        }
+
+        function fadeIn() {
+            var element = document.querySelector('img');
+            element.classList.remove('fadeOut');
+            element.classList.add('fadeIn');
+        }
+    </script>
+</body>
+</html>

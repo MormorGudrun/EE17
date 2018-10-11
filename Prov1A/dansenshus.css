@@ -15,18 +15,12 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 /* Sidans utseende */
 
 body {
-    background: url(./bilder/bakgrund.jpg);
-    background-repeat: no-repeat;
-    
+    background: url(./bilder/bakgrund.jpg) no-repeat fixed;
+    background-size: cover;
 }
 table {
-    width: 550px;
-    border-collapse: collapse;
-    border: 15px solid #a9e5e5;
-    border-spacing: 5px;
-    padding: 20px;
-    border: 1px solid #a9e5e5;
-    border-radius: 20px;
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
 }
 div {
     margin: 100px 0 0 100px;
@@ -36,10 +30,15 @@ h1 {
     color: #00a6ad;
     font-size: 50px;
     margin-bottom: 30px;
+    border-bottom: 1px solid #00a6ad;
+    letter-spacing: 5px;
+    text-align: center;
+    width: 550px;
 }
 h2 {
     color: #00a6ad;
     margin-bottom: 30px;
+    font-family: 'Denk One', sans-serif;
 }
 img {
     border: 20px solid #a9e5e5;
@@ -49,24 +48,25 @@ img {
 }
 p {
     background: #a9e5e5;
-    border: 20px solid #a9e5e5;
+    padding: 10px;
     border-radius: 10px;
     width: 550px;
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
 }
-caption {
-    color: #00a6ad;
-    text-align: left;
-    font-size: 20px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-tr {
-    padding: 5px;
-    border: 2px solid #a9e5e5;
-}
+
 th {
-    padding: 5px;
+    color: #00a6ad;
+    border-radius: 5px;
+    padding: 20px;
+    background: #a9e5e5;
+}
+td {
+    color: #fff;
     border: 2px solid #a9e5e5;
+    border-radius: 5px;
+    padding: 20px;
+
 }
 .farg {
     background-color: #a9e5e5;
