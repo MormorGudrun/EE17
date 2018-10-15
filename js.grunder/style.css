@@ -1,7 +1,42 @@
-label {
-    width: 250px;
-    display: inline-block;
+body {
+    background: #212121;
 }
+.kontainer {
+    width: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    background-color: rgb(253, 249, 192);
+    border-radius: 5px;
+}   
 input {
-    width: 250px;
+    width: 100px;
+    padding: 5px;
+    border-radius: 3px;
+}
+p {
+    background: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.hogt {
+    background: rgb(255, 190, 190)
+}
+.lagt {
+    background: rgb(218, 255, 162)
+}
+.dum {
+    background: rgb(216, 0, 0);
+}
+.yipee {
+    background: #283f82;
+    color: #fff;
+    margin-top: 10px;
+}
+button {
+    width: 150px;
+    background: rgb(1, 114, 6);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
 }

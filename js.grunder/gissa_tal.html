@@ -6,14 +6,20 @@
     <title>Spel - gissa talet</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mini.css/3.0.0/mini-default.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
 </head>
 <body>
-    <h1>Spel - gissa talet</h1>
-    <label>Gissa ett tal mellan 1-100.</label>
-    <input id="gissning" type="text"><br>
-    <label>Svar</label>
-    <input id="svar" type="text"><br>
-    <button onclick="gissa()">Gissa!</button>
-    <script src="gissa_tal.js"></script>
+    <div class="kontainer">
+        <h1>Spel - gissa talet</h1>
+        <label>Gissa ett tal mellan 1-100.</label>
+        <input id="gissning" type="text"><br>
+        <button onclick="gissa()">Gissa!</button>
+
+        <div id="svar" class="animated">
+            <p>Resultat</p>
+        </div>
+
+        <script src="gissa_tal.js"></script>
+    </div>
 </body>
 </html>
