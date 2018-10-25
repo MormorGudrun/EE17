@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Mali');
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+/* prettier-ignore */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* prettier-ignore */
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(93, 136, 93);
+}
+.kontainer {
+    width: 600px;
+    margin: 100px auto 100px auto;
+    font-family: 'Mali', cursive;
+    margin: 10px auto;
+    padding: 30px;
+    background: rgb(105, 119, 163);
+    color: #222;
+    text-align: center;
+}
+h1 {
+    font-size: 50px;
+}
+.bild {
+    width: 400px;
+    margin: auto;
+    padding: 30px;
+}
+.bild img {
+    width: 100%;
+    border: 10px solid #FFF;
+}
+
+button {
+    background: green;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+p {
+    background: #FFF;
+   
+}
