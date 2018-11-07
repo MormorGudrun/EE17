@@ -16,28 +16,22 @@ function start() {
     const elementKnapp2 = document.querySelector('.knapp2');
     const elementKnapp3 = document.querySelector('.knapp3');
     const elementKnapp4 = document.querySelector('.knapp4');
-    /* Vilka händelser behöver vi lyssna på? */
-    
-    elementKnapp1.addEventListener('click', visaBild1);
-    elementKnapp2.addEventListener('click', visaBild2);
-    elementKnapp3.addEventListener('click', visaBild3);
-    elementKnapp4.addEventListener('click', visaBild4);
 
-    /* Vad ska hända när man klickat på knapp 1 */
-    function visaBild1() {
-        elementImg.src = './bilder/jpeg/michael-olsen-584366-unsplash.jpg';
-        elementP.textContent = 'Photo by Michel olsen';
+    /* Klicka på en knapp*/
+    elementKnapp1.addEventListener('click', visaBild);
+    elementKnapp2.addEventListener('click', visaBild);
+    elementKnapp3.addEventListener('click', visaBild);
+    elementKnapp4.addEventListener('click', visaBild);
+
+    /* Visa motsvarande stor bild och skriv ut bildtext*/
+
+    function visaBild() {
+        console.log(this.dataset.bild);
+        
+      /*   elementImg.src = './bilder/jpeg/alex-perez-580371-unsplash.jpg';
+        elementP.textContent = 'Photo by Alex perez'; */
     }
-    function visaBild2() {
-        elementImg.src = './bilder/jpeg/sacha-styles-552126-unsplash.jpg';
-        elementP.textContent = 'Photo by Sacha styles';
-    }
-    function visaBild3() {
-        elementImg.src = './bilder/jpeg/will-turner-508747-unsplash.jpg';
-        elementP.textContent = 'Photo by Will turner';
-    }
-    function visaBild4() {
-        elementImg.src = './bilder/jpeg/alex-perez-580371-unsplash.jpg';
-        elementP.textContent = 'Photo by Alex perez';
-    }
+
+   
+
 }

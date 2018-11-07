@@ -40,4 +40,8 @@ function start() {
         elementImg.src = './bilder/jpeg/alex-perez-580371-unsplash.jpg';
         elementP.textContent = 'Photo by Alex perez';
     }
+
+    /* Klicka på en knapp */
+    
+    /* Visa motsvarande stor bild och skriv en bildtext */
 }
