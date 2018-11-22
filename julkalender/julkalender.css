@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+/* prettier-ignore */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* prettier-ignore */
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('./bilder/One\ Hot\ Deskto\ Romantic\ Christmas\ Gifts.jpg');
+}
+.kontainer {
+    width: 800px;
+    margin: 30px auto;
+    font-family: 'Tangerine', cursive;;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 50px;
+}
+h1 {
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+.dag {
+    width: 80px;
+    height: 80px;
+    background: rgb(11, 124, 11);
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 40px;
+    padding-top: 15px;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+.dag:hover {
+    background: rgb(65, 201, 65);
+}
+.bild {
+    background: url('./bilder/tomte-textil-sittande-ljus-gra-luva-56-cm.jpg')
+}
