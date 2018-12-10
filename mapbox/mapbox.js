@@ -14,3 +14,14 @@ var marker = new mapboxgl.Marker()      // Här skapar vi en marker
     var marker = new mapboxgl.Marker()      // Här skapar vi en marker 
     .setLngLat([17.827164, 59.377914])  // Här ger vi markern en position
     .addTo(map);                        // Här lägger vi till markern på kartan
+
+var popup1 = new mapboxgl.Popup()       //Här skapar vi en popup
+    .setLngLat([17.807164, 59.377914])  //Här ger vi popup en possition
+    .setHTML("<p>Här bor jag</p>")      //Här skriver vi in texten
+    .addTo(map);                        //Här infogar vi popup till map
+
+
+    var popup2 = new mapboxgl.Popup()       //Här skapar vi en popup
+    .setLngLat([17.869984, 59.375815])  //Här ger vi popup en possition
+    .setHTML("<p>Här bor Pontus</p>")      //Här skriver vi in texten
+    .addTo(map);                        //Här infogar vi popup till map
