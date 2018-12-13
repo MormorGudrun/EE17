@@ -1,0 +1,72 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("bilder/background_AcadeMedianew.jpg");
+}
+.kontainer {
+    width: 700px;
+    margin: 20px auto;
+    padding: 50px;
+    background-color: #FFF;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #333;
+}
+table {
+    width: 100%;
+    border: 1px solid #E9E9E9;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+caption {
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+tr:nth-child(even) {
+    background: rgb(248, 248, 248);
+}
+tr:nth-child(odd) {
+    background: #FFF;
+}
+td, th {
+    padding: 10px;
+    border: 1px solid #E9E9E9;
+    border: 1px solid #E9E9E9;
+}
+th.kol1 {
+    width: 60%;
+}
+th.kol2 {
+    width: 20%;
+}
+th.kol3 {
+    width: 20%;
+}
+td ul {
+    padding: 0 20px;
+}
+select, input[type="text"], button {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #949494;
+    font-size: 11px;
+}
+button {
+    cursor: pointer;
+}
+button:hover {
+    background: rgb(136, 136, 136);
+    color: #FFF;
+}

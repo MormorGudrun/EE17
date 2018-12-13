@@ -1,0 +1,33 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+/* prettier-ignore */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* prettier-ignore */
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #000000
+}
+.kontainer {
+    width: 500px;
+    padding: 20px;
+    margin: 50px auto;
+    background: #BBB;
+    font-family: sans-serif;
+    display: grid;
+    grid-template-columns: 100px 200px;
+    grid-gap: 20px;
+}
+label {
+    text-align: right;
+    align-self: center;
+}
+input, button {
+    padding: 20px;
+}

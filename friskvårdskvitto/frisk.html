@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Friskvårdsaktivitet</title>
+    <link rel="stylesheet" href="frisk.css">
+</head>
+<body>
+    <div class="kontainer">
+        <table>
+            <caption>Friskvårdskvitto</caption>
+            <tr>
+                <th class="kol1">Beskrivning</th>
+                <th class="kol2"></th>
+                <th class="kol3">Total</th>
+            </tr>
+            <tr>
+                <td>1 av 7 - Är din aktivitet godkänd friskvård?<br>
+                Läs mer under flik: "2. Godkända aktiviteter".</td>
+                <td><input type="checkbox" id="godkand">Ja</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2 av 7 - Är ditt kvitto giltigt?<br>
+                    Kvittot måste ange datum, belopp och moms. Om köpet överstiger 4 000 kr behöver namn och/eller personnummer finnas på kvittot. Läs mer under fliken: "1. Giltigt kvitto".</td>
+                <td><input type="checkbox" id="giltig">Ja</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3 av 7 - Visar ditt kvitto att du har betalt?<br>
+                    Som underlag för utlägget räcker inte en faktura. Det måste framgå att du har betalt. Du kan ej heller få bidrag för autogiro förrän din kostnad uppstått. Läs mer under fliken: "1. Giltigt kvitto"..</td>
+                <td><input type="checkbox" id="betalt">Ja</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>4 av 7 - Vilken momssats återfinns på kvittot?<br>
+                    Beloppet som anges är exkl. ev. medlemsavgift.
+                    Exempel för olika momssatser:
+                    <ul>
+                        <li>0% moms: kommunal anläggning eller ideell förening</li>
+                        <li>6% moms: privat gym</li>
+                        <li>25% moms: massage, utbildning eller tjänst</li>
+                    </ul></td>
+                <td>
+                    <select id="momssats">
+                        <option value="0">0% moms</option>
+                        <option value="6">6% moms</option>
+                        <option value="25">25% moms</option>
+                    </select>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>5 av 7 - Kvittobelopp exklusive moms<br>
+                    Om du har fler kvitton från samma leverantör kan du göra en samlad kvittoregistrering för dessa. Du summerar utläggen i fältet till höger och nedan väljer du det senaste utläggsdatumet på "Datum för utlägg".</td>
+                <td><input type="text" id="belopp"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Tryck på Registrera när du fyllt i alla uppgifter.</td>
+                <td><button>Registrera</button></td>
+                <td><input type="text" id="total"></td>
+            </tr>
+        </table>
+    </div>
+    <script src="frisk.js"></script>
+</body>
+</html>
