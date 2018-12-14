@@ -11,16 +11,10 @@ function start() {
 
     function raknaNed() {
         let talet = Number(eTalet.value);
-        
-        let summaNed = talet - 99;
-
-        eTalet.value = summaNed;
+        eTalet.value = talet -1;
     }
     function raknaUpp() {
         let talet = Number(eTalet.value);
-
-        let summaUpp = talet + 99;
-
-        eTalet.value = summaUpp;
+        eTalet.value = talet +1;
     }
 }
