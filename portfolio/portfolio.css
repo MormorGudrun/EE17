@@ -1,0 +1,100 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+/* prettier-ignore */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* prettier-ignore */
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+/* Hela layouten */
+body {
+
+}
+.kontainer {
+
+}
+
+/* Sidhuvedet */
+header {
+
+}
+header h1 {
+
+}main 
+header h2 {
+
+}
+header nav {
+
+}
+header ul {
+
+}
+header li {
+
+}
+header a {
+
+}
+
+/* Sidans innehall*/
+main {
+
+}
+main .innehall {
+
+}
+main article {
+
+}
+main h3 {
+
+}
+main figure {
+
+}aside 
+main img {
+
+}
+main figcaption {
+
+}
+main p {
+
+}
+main a {
+
+}
+
+/* Sidebar */
+aside {
+
+}
+aside section {
+
+}
+aside h4 {
+
+}
+aside ul {
+
+}
+aside li {
+
+}
+aside a {
+
+}
+
+/* Sidfoten */
+footer {
+
+}
+footer p {
+
+}
