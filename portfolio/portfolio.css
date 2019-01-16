@@ -13,40 +13,53 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 }
 /* Hela layouten */
 body {
-
+    background: url(./bilder/medelhavspaj4.png);
+    background-size: 250px;
 }
 .kontainer {
+    width: 960px;
+    margin: auto;
+    font-family: sans-serif;
 
 }
 
 /* Sidhuvedet */
 header {
-
+    color: #fff;
 }
 header h1 {
 
-}main 
+}
 header h2 {
 
 }
 header nav {
-
+    background: linear-gradient(to right, #595959 0%, #e0cccc 100%);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 20px 0;
 }
 header ul {
 
 }
 header li {
-
+    display: inline;
 }
 header a {
-
+    text-decoration: none;
+    color: #fff;
 }
 
 /* Sidans innehall*/
 main {
-
+    display: grid;
+    grid-template-columns: 650px 280px;
+    justify-content: space-between;
 }
 main .innehall {
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px;
 
 }
 main article {
@@ -57,9 +70,9 @@ main h3 {
 }
 main figure {
 
-}aside 
+}
 main img {
-
+    width: 500px;
 }
 main figcaption {
 
@@ -76,7 +89,10 @@ aside {
 
 }
 aside section {
-
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 aside h4 {
 
