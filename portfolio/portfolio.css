@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Source+Sans+Pro');
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
@@ -14,29 +15,31 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 /* Hela layouten */
 body {
     background: url(./bilder/medelhavspaj4.png);
-    background-size: 250px;
+    background-size: 300px;
+    background-attachment: fixed;
+
 }
 .kontainer {
     width: 960px;
     margin: auto;
     font-family: sans-serif;
-
 }
 
 /* Sidhuvedet */
 header {
     color: #fff;
+    grid-area: sidhuvud;
 }
 header h1 {
-
+    font-family: 'Raleway', sans-serif;
 }
 header h2 {
-
+    font-family: 'Source Sans Pro', sans-serif;
 }
 header nav {
     background: linear-gradient(to right, #595959 0%, #e0cccc 100%);
     border-radius: 5px;
-    padding: 5px;
+    padding: 7px;
     margin: 20px 0;
 }
 header ul {
@@ -44,26 +47,32 @@ header ul {
 }
 header li {
     display: inline;
+    margin: 0 10px;
 }
 header a {
     text-decoration: none;
     color: #fff;
 }
-
+header a:hover {
+    color: greenyellow;
+}
 /* Sidans innehall*/
 main {
     display: grid;
     grid-template-columns: 650px 280px;
     justify-content: space-between;
+    grid-template-areas: 
+    "inehall sidebar"
 }
 main .innehall {
-    background: #fff;
+    background: rgba(255, 255, 255, 0.774);
     border-radius: 5px;
     padding: 20px;
+    grid-area: inehall;
 
 }
 main article {
-
+    color: #000;
 }
 main h3 {
 
@@ -78,7 +87,7 @@ main figcaption {
 
 }
 main p {
-
+    color: #000;
 }
 main a {
 
@@ -86,12 +95,12 @@ main a {
 
 /* Sidebar */
 aside {
-
+    grid-area: sidebar;
 }
 aside section {
-    background: #fff;
+    background:  rgba(255, 255, 255, 0.774);
     border-radius: 5px;
-    padding: 20px;
+    padding: 30px;
     margin-bottom: 20px;
 }
 aside h4 {
@@ -101,16 +110,19 @@ aside ul {
 
 }
 aside li {
-
+    list-style: none;
 }
 aside a {
-
+    text-decoration: none;
+    color: #000;
 }
 
 /* Sidfoten */
 footer {
-
+    grid-area: sidfot;
 }
 footer p {
+    background: rgba(255, 255, 255, 0.562);
+    padding: 5px;
 
 }
