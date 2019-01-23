@@ -20,8 +20,8 @@ body {
 
 }
 .kontainer {
-    width: 960px;
-    margin: auto;
+    width: 100%;
+    padding: 20px;
     font-family: sans-serif;
 }
 
@@ -58,11 +58,7 @@ header a:hover {
 }
 /* Sidans innehall*/
 main {
-    display: grid;
-    grid-template-columns: 650px 280px;
-    justify-content: space-between;
-    grid-template-areas: 
-    "inehall sidebar"
+
 }
 main .innehall {
     background: rgba(255, 255, 255, 0.774);
@@ -81,7 +77,7 @@ main figure {
 
 }
 main img {
-    width: 500px;
+    width: 100%;
 }
 main figcaption {
 
@@ -125,4 +121,27 @@ footer p {
     background: rgba(255, 255, 255, 0.562);
     padding: 5px;
 
+}
+/* Resposvis layout */
+ /* @media (min-width: 640px) {
+    main {
+        display: grid;
+        grid-gap: 20px;
+
+    }
+} */
+@media (min-width: 960px) {
+    .kontainer {
+        width: 960px;
+        margin: auto;
+        font-family: 'PT Sans', sans-serif;
+    }
+    main {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 650px 280px;
+        justify-content: space-between;
+        grid-template-areas: 
+        "inehall sidebar"
+    } 
 }
