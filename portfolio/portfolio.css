@@ -42,9 +42,6 @@ header nav {
     padding: 7px;
     margin: 20px 0;
 }
-header ul {
-
-}
 header li {
     display: inline;
     margin: 0 10px;
@@ -57,9 +54,7 @@ header a:hover {
     color: greenyellow;
 }
 /* Sidans innehall*/
-main {
 
-}
 main .innehall {
     background: rgba(255, 255, 255, 0.774);
     border-radius: 5px;
@@ -70,24 +65,14 @@ main .innehall {
 main article {
     color: #000;
 }
-main h3 {
-
-}
-main figure {
-
-}
 main img {
     width: 100%;
 }
-main figcaption {
 
-}
 main p {
     color: #000;
 }
-main a {
 
-}
 
 /* Sidebar */
 aside {
@@ -99,12 +84,6 @@ aside section {
     padding: 30px;
     margin-bottom: 20px;
 }
-aside h4 {
-
-}
-aside ul {
-
-}
 aside li {
     list-style: none;
 }
@@ -115,24 +94,24 @@ aside a {
 
 /* Sidfoten */
 footer {
-    grid-area: sidfot;
-}
-footer p {
-    background: rgba(255, 255, 255, 0.562);
-    padding: 5px;
-
+    padding: 20px 0;
 }
 /* Resposvis layout */
- /* @media (min-width: 640px) {
+  @media (min-width: 640px) {
     main {
         display: grid;
         grid-gap: 20px;
+        grid-template-columns: 3fr 1fr;
+        justify-content: space-between;
+        grid-template-areas: 
+        "innehall sidebar"
 
     }
-} */
+} 
 @media (min-width: 960px) {
     .kontainer {
         width: 960px;
+        padding: 0;
         margin: auto;
         font-family: 'PT Sans', sans-serif;
     }
@@ -142,6 +121,6 @@ footer p {
         grid-template-columns: 650px 280px;
         justify-content: space-between;
         grid-template-areas: 
-        "inehall sidebar"
+        "innehall sidebar"
     } 
 }
