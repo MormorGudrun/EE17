@@ -31,12 +31,6 @@ header h1 {
     font-size: 80px;
     color:  #893530;
 }
-header nav {
-
-}
-header ul {
-    
-}
 header li {
     display: inline;
 }
@@ -70,9 +64,6 @@ main figure img {
     width: 100%;
 
 }
-main figure figcaption {
-
-}
 main p {
     margin: 10px 0;
     text-shadow: 0px 1px 1px #fff;
@@ -80,6 +71,7 @@ main p {
 
 footer {
     padding: 0 40px 40px 40px;
+    text-align: center;
 }
 footer p {
     text-shadow: 0 1px 1px #fff;
